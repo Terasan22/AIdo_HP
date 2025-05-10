@@ -8,14 +8,6 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-br from-blue-600 via-blue-500 to-indigo-600 opacity-95"></div>
         <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10"></div>
         <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto flex flex-col items-center">
-          <Image
-            src="/aido-logo.png"
-            alt="AIdo Logo"
-            width={220}
-            height={100}
-            className="mb-6"
-            priority
-          />
           <h1 className="text-6xl md:text-8xl font-bold mb-6 tracking-tight">AIdo</h1>
           <p className="text-2xl md:text-3xl mb-8 font-light">東京大学 AI・データサイエンスサークル</p>
           <p className="text-lg md:text-xl mb-12 text-blue-100">未来を創る、AIの最前線</p>
